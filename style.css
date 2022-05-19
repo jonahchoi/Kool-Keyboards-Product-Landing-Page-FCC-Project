@@ -1,0 +1,104 @@
+h1{
+  text-align:center;
+  padding:;
+}
+#header-flex{
+  position:fixed;
+  display:flex;
+  align-items:center;
+  justify-content: flex-end;
+  top:0;
+  width:100vw;
+  background-color:white;
+}
+#logo{
+  display: flex;
+  width:60vw;
+  justify-content:flex-end;
+  align-items:inherit;
+}
+#header-img{
+  
+  max-width:100px;
+  height:auto;
+}
+#nav-bar{
+  text-align: right;
+  width:37vw;
+  margin-right:10px;
+  
+}
+.nav-link{
+  color:black;
+  font-size:1.35rem;
+  margin: 1rem;
+  text-decoration:none;
+}
+#about{
+  margin-top:100px;
+}
+.video-section{
+  text-align:center;
+}
+@media(max-width:500px){
+  h1{
+    font-size:1rem;
+  }
+  #header-img{
+    max-width:50px;
+  }
+  #nav-bar{
+    width:50vw;    
+
+  }
+  .nav-link{
+    font-size:0.7rem;
+  }
+}
+#shop{
+  display:flex;
+  justify-content:space-evenly;
+}
+.purchase{
+  display:flex;
+  flex-direction:column;
+  border:2px solid black;
+  padding: 0 ;
+  
+}
+.item{
+  background-color: #D3D3D3;
+  padding:1rem 2rem;
+  border-bottom: 2px solid black;
+  width:15vw;
+  text-align:center;
+  margin:0;
+}
+.price{
+  text-align:center;
+  
+}
+.parts{
+  padding:0.5rem 1rem;
+}
+
+#form{
+  margin:1rem;
+  text-align:center;
+  align-items:center;
+}
+.email-label{
+  font-size:1.5rem;
+  margin:1rem;
+}
+#email{
+  display:block;
+  width:20vw;f
+  min-height:1.75rem;
+  padding:0.5rem;
+  margin:1rem auto;
+}
+#submit{
+  width:5rem;
+  
+}

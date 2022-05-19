@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Kool Keyboards Product Landing Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header id="header">
+  <div id="header-flex">
+    <div id="logo">
+      <img id="header-img" src="https://thumbs.dreamstime.com/b/keyboard-icon-vector-sign-symbol-isolated-white-background-logo-concept-your-web-mobile-app-design-133757392.jpg">
+      <h1>Kool Keyboards</h1>
+    </div>
+  
+    <nav id="nav-bar">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#sound-test" class="nav-link">Sound Test</a>
+      <a href="#shop" class="nav-link">Shop</a>
+    </nav>
+  </div>
+</header>
+
+<div id="about">
+  <h2>About</h2>
+  <h3>Quality Parts</h3>
+  <p>Our keyboards use the highest quality metals and PCB's.</p>
+  <h3>Most Thocky Switches</h3>
+  <p>Choose from a wide variety of the thockiest switches. Pleasure to your ears guaranteed.
+  <h3>Clean Keycaps</h3>
+  <p>Looking for professional? We got them. What about whacky? We got those too. Shop a variety of keycaps in our store.
+</div>
+<br>
+<section id="sound-test" class="video-section" >
+  <h2>Sound test</h2>
+  
+  <!-- taken from youtube embed function-->
+  <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/PFHhKXbBVEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+
+<h2>Shop</h2>
+<div id="shop">
+  
+  <div class="purchase">
+    <h3 class="item">Keyboard case</h3>
+    <h4 class="price">$200</h4>
+    <label for="full" class="parts">
+      <input type="radio" name="case" id="full" value="full">Full-size (100%)</label>
+    <label for="tkl" class="parts">
+      <input type="radio" name="case" id="tkl" value="tkl">TKL (80%)</label>
+    <label for="65%" class="parts">
+      <input type="radio" name="case" id="65%" value="65%">65%</label>
+    <button type="submit" id="button">Select</button>
+  </div>
+  
+  <div class="purchase">
+    <h3 class="item">Switches</h3>
+    <h4 class="price">$100</h4>
+    <label for="blues" class="parts">
+      <input type="radio" name="switches" id="blues" value="blues">Blues</label>
+    <label for="reds" class="parts">
+      <input type="radio" name="switches" id="reds" value="reds">Reds</label>
+    <label for="browns" class="parts">
+      <input type="radio" name="switches" id="browns" value="browns">Browns</label>
+    <button type="submit" id="button">Select</button>
+  </div>
+  
+  <div class="purchase">
+    <h3 class="item">Keycaps</h3>
+    <h4 class="price">$50</h4>
+    <label for="default" class="parts">
+      <input type="radio" name="keycaps" id="default" value="default">Default</label>
+    <label for="matchas" class="parts">
+      <input type="radio" name="keycaps" id="matchas" value="matchas">Matchas</label>
+    <label for="lavender" class="parts">
+      <input type="radio" name="keycaps" id="lavender" value="lavender">Lavender</label>
+    <button type="submit" id="button">Select</button>
+  </div>
+  
+</div>
+
+
+<div>
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    
+    <label for="email" class="email-label">Sign up for our email list!<input id="email" type="email" name="email" placeholder="Enter email"></label>
+    <button id="submit" type="submit" value="Sign Up">Sign Up</button>
+  </form>
+</div>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
